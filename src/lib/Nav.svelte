@@ -1,5 +1,7 @@
 <script lang="ts">
 
+	let name = 'Floyd County Water Department'
+
 	// Initializations:
 	const links = [
 		{ route: '/', name: 'Home' },
@@ -9,6 +11,10 @@
 </script>
 
 <!-- #################################################################################################### -->
+
+<div>
+	<span>PROJECT MOUNTAIN CLERIC</span>
+</div>
 
 <nav>
 
@@ -36,22 +42,31 @@
 
 <style>
 
+	span {
+		position: relative;
+		font-size: 24pt;
+		font-weight: 800;
+		top: 1rem;
+		left: 1rem;
+	}
+
 	nav {
 		display: flex;
 		position: relative;
 		align-items: center;
-		height: 53px;
+		height: 50px;
 		width: auto;
 		padding: 0 24px;
-		top: 15px;
+		top: 2rem;
 		margin-right: 10px;
 		margin-left: 10px;
 		margin-bottom: 20px;
 		border-radius: .5rem;
-		background-color: rgba(0, 0, 0, 0.25);
-		backdrop-filter: blur(50px);
+		background-color: rgba(169, 169, 169, 0.3);
+		backdrop-filter: blur(5px);
 		border-bottom: 2px solid rgba(34,40,49,0.3);
-		box-shadow: 0px -5px 100px rgba(0, 0, 0, 0.417);
+		/* offset-x | offset-y | blur-radius | spread-radius | color */
+		box-shadow: 1px 1px 15px 5px rgb(65, 87, 115);
 	}
 
 	button {
@@ -65,20 +80,13 @@
 	}
 	
 	.links li {
-		margin: 0 1em 0 1em;
+		margin: 0 0 0 1em;
 		list-style: none;
 	}
 
 	.links a {
 		color: inherit;
 		text-decoration: none;
-	}
-
-	button:hover {
-		border-radius: 3px;
-		background-color: var(--secondary-color);
-		transition-duration: ease-out 1s;
-		transition-delay: 0s;
 	}
 	
 </style>

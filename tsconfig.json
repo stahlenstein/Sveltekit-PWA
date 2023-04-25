@@ -9,5 +9,6 @@
 		"sourceMap": false,
 		"strict": true,
 		"ignoreDeprecations": "5.0"
-	}
+	},
+	"include": ["src/**/*.ts", "src/user.ts"]
 }
