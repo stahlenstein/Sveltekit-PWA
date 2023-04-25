@@ -1,6 +1,6 @@
 :root {
 	--primary-color: #b9c6d2;
-	--secondary-color: #161616;
+	--secondary-color: #587497;
 	--tertiary-color: #edf0f8;
 	--accent-color: #ff3e00;
 }
@@ -20,4 +20,5 @@ html, body {
 	height: 100%;
 	color: #ffffff;
 	background-color: var(--secondary-color);
+	font-family: 'Inter', sans-serif;
 }
