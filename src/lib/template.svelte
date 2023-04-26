@@ -26,6 +26,12 @@
 
 <style>
 
-
+.template {
+	display: flex;
+	flex-wrap: wrap;
+	margin-right: 15x;
+	margin-left: 15px;
+	position: absolute
+}
 	
 </style>
